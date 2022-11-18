@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.form-group {
+  display: flex;
+}
+
+.form-group__button {
+  margin-left: 8px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.task-container {
+  display: flex;
+  align-items: center;
+  margin: 5px 0px;
+}
+
+.toDoText-task {
+  font-size: 20px;
+  color: black;
+  font-weight: 300;
+  margin: 0px 8px;
+}
+
+.toDoText-done {
+  color: rgba(0, 0, 0, 0.3);
+  text-decoration: line-through;
+}
+
+.imgButton {
+  width: 25px;
+}
+
+.containerReplace {
+  display: flex;
+}
+
+.buttonDeleteContent {
+  margin-left: 10px;
+}
